@@ -1,0 +1,356 @@
+.Bienvenido{
+    padding: 35px 45px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    padding: 12px;
+    font: bold 40px Arial, Helvetica, sans-serif ;
+    background: white; color: black;
+}
+
+header{
+    background: white;
+    
+}
+
+head{
+background: white;
+}
+
+header, section, aside, nav, article, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+    background: black;
+}
+
+.agrupar{
+    width: 1300px;
+    margin: 15px auto;
+    color: white;
+    
+}
+.mencion{
+    font: bold 12px Arial, Helvetica, sans-serif ;
+    padding: 15px;
+}
+
+.enlaces{
+    font: bold 12px Arial, Helvetica, sans-serif ;
+}
+
+.menu{
+    padding: 20px 0px;
+
+   
+}
+
+.menu li{
+    list-style: none;
+    padding: 0px 138px;
+    font: bold 20px Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 0px;
+    
+}
+.menu ul{
+    display: flex;
+    padding: 0 60px;
+}
+
+.menu ul li a:hover{
+border-bottom: 2px solid white;
+}
+
+.ruta{
+    padding: 45px 55px;
+    font: bold 15px Arial, Helvetica, sans-serif ;
+}
+
+.comodidades{
+    padding: 45px 55px;
+    font: bold 20px Arial, Helvetica, sans-serif;
+    border: 1px solid  white;
+    display: block;
+}
+
+.descripcion{
+    margin: 50px;
+    width: 270px;
+    border: 1px solid white;
+    font: bold 20px Arial, Helvetica, sans-serif;
+    padding: 5px 15px;
+    float: left;
+}
+
+
+.fotos1{
+    width: 700px;
+    right: 800;
+    margin: 30px auto;
+    overflow: hidden;
+
+}
+.fotos1 ul{
+    display: flex;
+    padding: 0;
+    width: 5000px;
+    list-style: none; 
+    animation: siguiente 20s infinite alternate;
+}
+
+.fotos1 ul:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.fotos1 li{
+    width: 60;    
+}
+.fotos1 p{
+    font: bold 20px Arial, Helvetica, sans-serif;
+}
+}
+
+
+@keyframes siguiente{
+    0%{margin-left: 0px;}
+    10%{margin-left: 0px;}
+
+    10%{margin-left: -700px;}
+    20%{margin-left: -700px;}
+
+    20%{margin-left: -1400px;}
+    30%{margin-left: -1400px;}
+
+    30%{margin-left: -2100px;}
+    40%{margin-left: -2100px;}
+
+    40%{margin-left: -2800px;}
+    50%{margin-left: -2800px;}
+
+    50%{margin-left: -3500px;}
+    60%{margin-left: -3500px;}
+
+    60%{margin-left: -4200px;}
+    70%{margin-left: -4200px;}
+
+    70%{margin-left: -4900px;}
+    80%{margin-left: -4900px;}
+
+    80%{margin-left: -5600px;}
+    95%{margin-left: -5600px;}
+
+    90%{margin-left: -6300px;}
+    100%{margin-left: -6300px;}
+    
+}
+
+.prendas{
+    width: 700px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.prendas ul{
+    display: flex;
+    padding: 0;
+    width: 1800px;
+    list-style: none; 
+    animation: cambiar 20s infinite alternate;
+}
+.prendas ul:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.prendas li{
+    width: 60;
+}
+.prendas p{
+    font: bold 20px Arial, Helvetica, sans-serif;
+}
+}
+
+
+@keyframes cambiar{
+    0%{margin-left: 0px;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -700px;}
+    45%{margin-left: -700px;}
+
+    50%{margin-left: -1400px;}
+    70%{margin-left: -1400px;}
+
+    75%{margin-left: -2100px;}
+    100%{margin-left: -2100px;}
+
+    100%{margin-left: -2800px;}
+    125%{margin-left: -2800px;}
+
+    125%{margin-left: -3500px;}
+    150%{margin-left: -3500px;}
+
+    150%{margin-left: -3500px;}
+    175%{margin-left: -3500px;}
+
+    175%{margin-left: -3500px;}
+    200%{margin-left: -3500px;}
+    
+
+}
+
+.calzados{
+    width: 700px;
+    margin: 80px auto;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.calzados ul{
+    display: flex;
+    padding: 0;
+    width: 3500px;
+    list-style: none; 
+    animation: otro 20s infinite alternate;
+}
+.calzados ul:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.calzados li{
+    width: 60;
+}
+.calzados p{
+    font: bold 20px Arial, Helvetica, sans-serif;
+}
+
+@keyframes otro{
+    0%{margin-left: 0px;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -700px;}
+    45%{margin-left: -700px;}
+
+    
+}
+footer{
+    color: white; background: black;
+}
+
+.pie2{
+    width: 700px;
+    background: black; color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.pie2 ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.pie2 li{
+    margin-left: 100px;
+}
+
+.pie2 img{
+    margin-bottom: 30px;
+    padding: 30px 0;
+}
+
+.pie2 ul:hover{
+    cursor: pointer;
+}
+
+.pie3 ul{
+    list-style: none;
+    display: block;
+    margin: 20px;
+    font: bold 10px Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*SHOWCASE*/
+.showcase{
+    width: 100%;
+    height: 600px;
+    background: url('./Black\ Store\ Py/showcase.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.showcase h2{
+    margin-bottom: 5px;
+}
+.showcase blockquote{
+    font: bold 30px Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    display: block;
+
+}
+
+hr{
+    margin: 10px 0px;
+}
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgb(83, 82, 82);
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    
+}
+.btn:hover{
+    opacity: .7;
+}
+
+.info{
+   
+    padding-bottom: 250px;
+}
+.info ul{
+    
+    list-style: none;
+}
+.info li{
+    padding: 40px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.info h2{
+    background: white;
+    display: inline-block;
+    color: black;
+}
+.info p{
+    padding-left: 20px;
+    font: bold 20px Arial, Helvetica, sans-serif;
+}
+}
